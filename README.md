@@ -1,35 +1,36 @@
-Ex09 Event Registration Web Application
-Date: 21/12/24
-AIM:
+# Ex09 Event Registration Web Application
+# Date: 21/12/24
+# AIM:
 To design, develop and deploy a web application for event registration.
 
-DESIGN STEPS:
-Step 1:
+# DESIGN STEPS:
+## Step 1:
 Create a new frame.
 
-Step 2:
+## Step 2:
 Select any one preset size of your choice.
 
-Step 3:
+## Step 3:
 Select the shapes you need.
 
-Step 4:
+## Step 4:
 Import images as needed.
 
-Step 5:
+## Step 5:
 Create pages based on your need and link them.
 
-Step 6:
+## Step 6:
 Validate the HTML and CSS code.
 
-Step 6:
+## Step 6:
 Publish the website in the given URL.
 
-DESIGN TOOL:
+# DESIGN TOOL:
 Figma
 
-CODE:
-PAGE 1:
+# CODE:
+## PAGE 1:
+```
 <div style="width: 419px; height: 926px; position: relative; background: white">
   <div style="left: 50px; top: 56px; position: absolute; color: white; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word"> </div>
   <div style="width: 428px; height: 500px; left: -9px; top: 432px; position: absolute; background: rgba(129.61, 94.96, 62.97, 0.79)"></div>
@@ -56,7 +57,9 @@ PAGE 1:
   <div style="width: 366px; height: 45px; left: 26px; top: 123px; position: absolute; text-align: center; color: #761212; font-size: 25px; font-family: Inter; font-style: italic; font-weight: 800; word-wrap: break-word">CULTURAL DAY EVENTS </div>
   <div style="width: 346px; height: 50px; left: 26px; top: 311px; position: absolute; text-align: center; color: black; font-size: 23px; font-family: Inter; font-weight: 500; word-wrap: break-word">April 24-30 | Off-Stage events</div>
 </div>
-PAGE 2;
+```
+## PAGE 2;
+```
 <div style="width: 428px; height: 926px; position: relative; background: rgba(118.56, 46.93, 68.42, 0.64)">
   <img style="width: 428px; height: 216px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/428x216" />
   <img style="width: 155px; height: 56px; left: 9px; top: 9px; position: absolute; border-radius: 220px" src="https://via.placeholder.com/155x56" />
@@ -92,7 +95,9 @@ PAGE 2;
   </div>
   <div style="width: 494px; height: 89px; left: -66px; top: 292px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">ADZAP - April 24</div>
 </div>
-PAGE 3:
+```
+## PAGE 3:
+```
 <div style="width: 428px; height: 926px; position: relative; background: rgba(118.56, 46.93, 68.42, 0.64)">
   <img style="width: 404px; height: 63px; left: 12px; top: 23px; position: absolute" src="https://via.placeholder.com/404x63" />
   <img style="width: 155px; height: 56px; left: 30px; top: 96px; position: absolute; border-radius: 220px" src="https://via.placeholder.com/155x56" />
@@ -117,7 +122,9 @@ PAGE 3:
   <div style="width: 187px; height: 52px; left: 109px; top: 739px; position: absolute; background: #0698AC; border-radius: 220px"></div>
   <div style="width: 144px; height: 45px; left: 125px; top: 742px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">REGISTER</div>
 </div>
-PAGE 4:
+```
+## PAGE 4:
+```
 <div style="width: 411px; height: 938px; position: relative; background: white">
   <img style="width: 411px; height: 938px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/411x938" />
   <img style="width: 399px; height: 63px; left: 12px; top: 23px; position: absolute" src="https://via.placeholder.com/399x63" />
@@ -128,8 +135,12 @@ PAGE 4:
   <div style="left: 38px; top: 646px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Email : priyaacelenza2k24@saveetha.in</div>
   <div style="left: 60px; top: 598px; position: absolute; text-align: center; color: #D9D9D9; font-size: 25px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word"> FOR DETAILS CONTACT </div>
 </div>
-OUTPUT:
-Screenshot 2024-12-22 123325 Screenshot 2024-12-22 123333 Screenshot 2024-12-22 123340 Screenshot 2024-12-22 123350
+```
+# OUTPUT:
+![Screenshot 2024-12-22 123325](https://github.com/user-attachments/assets/c13b6422-6924-4b06-97a8-0e45a129c955)
+![Screenshot 2024-12-22 123333](https://github.com/user-attachments/assets/2be64926-839a-40bf-91ce-4e61bbdee6e8)
+![Screenshot 2024-12-22 123340](https://github.com/user-attachments/assets/c85cc00c-49f8-4dc8-87ae-8f9b3d802d0f)
+![Screenshot 2024-12-22 123350](https://github.com/user-attachments/assets/ef5017d3-071a-45a3-baf9-aa3803e10b6f)
 
-RESULT:
+# RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
