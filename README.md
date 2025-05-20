@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-# Date:
+# Date:19.05.2025
 # AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -29,118 +29,233 @@ Publish the website in the given URL.
 Figma
 
 # CODE:
-## PAGE 1:
 ```
-<div style="width: 419px; height: 926px; position: relative; background: white">
-  <div style="left: 50px; top: 56px; position: absolute; color: white; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word"> </div>
-  <div style="width: 428px; height: 500px; left: -9px; top: 432px; position: absolute; background: rgba(129.61, 94.96, 62.97, 0.79)"></div>
-  <div style="width: 428px; height: 52px; left: 0px; top: 432px; position: absolute; text-align: center; color: black; font-size: 23px; font-family: Inter; font-weight: 500; word-wrap: break-word">Sign up for event updates</div>
-  <div style="width: 386px; height: 275px; left: 15px; top: 504px; position: absolute; border-radius: 5px; overflow: hidden; border: 1px #7D0C0C dotted">
-    <div style="width: 366px; height: 45px; left: 10px; top: 20px; position: absolute; background: #F5F5F5">
-      <div style="width: 348px; height: 26px; left: -113px; top: 5px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">First Name*</div>
-      <div style="width: 348px; height: 26px; left: -113px; top: 5px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">First Name*</div>
-    </div>
-    <div style="width: 366px; height: 45px; padding-top: 4px; padding-bottom: 15px; padding-right: 118px; left: 10px; top: 150px; position: absolute; background: #F5F5F5; justify-content: flex-start; align-items: center; display: inline-flex">
-      <div style="width: 348px; height: 26px; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Email Address*</div>
-    </div>
-    <div style="width: 366px; height: 45px; padding-top: 5px; padding-bottom: 14px; padding-right: 131px; left: 10px; top: 85px; position: absolute; background: #F5F5F5; justify-content: flex-start; align-items: center; display: inline-flex">
-      <div style="width: 348px; height: 26px; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Last Name*</div>
-    </div>
-  </div>
-  <div style="width: 179px; height: 50px; left: 120px; top: 714px; position: absolute; background: #0698AC; border-radius: 220px"></div>
-  <div style="width: 140px; height: 44px; left: 143px; top: 720px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">SIGN UP</div>
-  <div style="width: 428px; height: 0px; left: -9px; top: 484px; position: absolute; border: 2px #761212 solid"></div>
-  <div style="width: 428.12px; height: 0px; left: -9px; top: 432px; position: absolute; border: 2px #7D0C0C solid"></div>
-  <img style="width: 420px; height: 432px; left: -2px; top: 0px; position: absolute; mix-blend-mode: multiply" src="https://via.placeholder.com/420x432" />
-  <img style="width: 404px; height: 63px; left: 7px; top: 25px; position: absolute" src="https://via.placeholder.com/404x63" />
-  <img style="width: 300px; height: 97px; left: 59px; top: 168px; position: absolute; mix-blend-mode: hard-light" src="https://via.placeholder.com/300x97" />
-  <div style="width: 366px; height: 45px; left: 26px; top: 123px; position: absolute; text-align: center; color: #761212; font-size: 25px; font-family: Inter; font-style: italic; font-weight: 800; word-wrap: break-word">CULTURAL DAY EVENTS </div>
-  <div style="width: 346px; height: 50px; left: 26px; top: 311px; position: absolute; text-align: center; color: black; font-size: 23px; font-family: Inter; font-weight: 500; word-wrap: break-word">April 24-30 | Off-Stage events</div>
+<div class="container--0-">
+  <img src="sample.png"  /><svg
+    width="252"
+    height="66"
+    viewBox="0 0 252 66"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 12C0 5.37258 5.37258 0 12 0H240C246.627 0 252 5.37258 252 12V54C252 60.6274 246.627 66 240 66H12C5.37258 66 0 60.6274 0 54V12Z"
+      fill="#3B296F"
+    ></path></svg
+  ><svg
+    width="252"
+    height="66"
+    viewBox="0 0 252 66"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 12C0 5.37258 5.37258 0 12 0H240C246.627 0 252 5.37258 252 12V54C252 60.6274 246.627 66 240 66H12C5.37258 66 0 60.6274 0 54V12Z"
+      fill="#3B296F"
+    ></path>
+  </svg>
+  <div class="text-0-1-6">LOGIN</div>
+  <div class="text-0-1-7">REGISTER</div>
 </div>
-```
-## PAGE 2;
-```
-<div style="width: 428px; height: 926px; position: relative; background: rgba(118.56, 46.93, 68.42, 0.64)">
-  <img style="width: 428px; height: 216px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/428x216" />
-  <img style="width: 155px; height: 56px; left: 9px; top: 9px; position: absolute; border-radius: 220px" src="https://via.placeholder.com/155x56" />
-  <img style="width: 428px; height: 710px; left: 0px; top: 216px; position: absolute" src="https://via.placeholder.com/428x710" />
-  <div style="width: 309px; height: 559px; left: 59px; top: 284px; position: absolute; border-radius: 5px; overflow: hidden; border: 1px #9747FF dotted">
-    <div style="width: 269px; height: 57px; left: 20px; top: 20px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-      <div style="width: 269px; height: 57px; background: #D9D9D9"></div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 174px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 0px; top: 5px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">MOVIE BUZZ - April 26</div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 97px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 12px; top: 5px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">SOLO SINGING -April -25</div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 251px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 12px; top: 6px; position: absolute; text-align: center; color: black; font-size: 19.70px; font-family: Inter; font-weight: 500; word-wrap: break-word">TREASURE HUNT-April 27</div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 328px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 0px; top: 6px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">CONNEXIONS -April 28</div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 405px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 0px; top: 6px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">DIGITAL ART-April 29</div>
-    </div>
-    <div style="width: 269px; height: 57px; left: 20px; top: 482px; position: absolute">
-      <div style="width: 269px; height: 57px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
-      <div style="width: 246px; height: 46px; left: 0px; top: 6px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">DEBATE -April 30</div>
-    </div>
+
+<div class="container--0-">
+  <img src="sampleimage2.png"
+  /><svg
+    width="271"
+    height="48"
+    viewBox="0 0 271 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="271" height="48" rx="24" fill="#D9D9D9"></rect></svg
+  ><svg
+    width="271"
+    height="48"
+    viewBox="0 0 271 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="271" height="48" rx="24" fill="#D9D9D9"></rect>
+  </svg>
+  <div class="text-0-1-3">CHALLENGES~</div>
+  <div class="text-0-1-4">
+    #DOODLE WAR<br /><br />#COLORING QUIZ<br /><br />#SPEED PAINTING
   </div>
-  <div style="width: 494px; height: 89px; left: -66px; top: 292px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">ADZAP - April 24</div>
-</div>
-```
-## PAGE 3:
-```
-<div style="width: 428px; height: 926px; position: relative; background: rgba(118.56, 46.93, 68.42, 0.64)">
-  <img style="width: 404px; height: 63px; left: 12px; top: 23px; position: absolute" src="https://via.placeholder.com/404x63" />
-  <img style="width: 155px; height: 56px; left: 30px; top: 96px; position: absolute; border-radius: 220px" src="https://via.placeholder.com/155x56" />
-  <div style="width: 465px; height: 63px; left: -19px; top: 152px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: Inter; font-weight: 500; word-wrap: break-word">EVENT REGISTRATION FORM </div>
-  <div style="left: 42px; top: 203px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">Fill in the details</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 239px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 348px; height: 26px; left: -96px; top: 245px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word"> Name*</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 622px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 302px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 348px; height: 26px; left: -66px; top: 308px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Department*</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 366px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 348px; height: 26px; left: -66px; top: 374px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Register No*</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 430px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 348px; height: 26px; left: -89px; top: 436px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Year*</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 494px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 348px; height: 26px; left: -79px; top: 502px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Email Id*</div>
-  <div style="width: 348px; height: 26px; left: -52px; top: 633px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Events to enrol *</div>
-  <div style="width: 309px; height: 51px; left: 42px; top: 558px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-    <div style="width: 309px; height: 51px; background: #D9D9D9"></div>
+  <div class="text-0-1-5">FUN ADD-ONS~</div>
+  <div class="text-0-1-6">
+    FACE PAINTING<br /><br />GLOW IN DARK PAINTING<br /><br />SPIN ART STUDIO
   </div>
-  <div style="width: 174px; height: 26px; left: 21px; top: 566px; position: absolute; text-align: center; color: black; font-size: 17px; font-family: Inter; font-weight: 500; word-wrap: break-word">Mobile No*</div>
-  <div style="width: 187px; height: 52px; left: 109px; top: 739px; position: absolute; background: #0698AC; border-radius: 220px"></div>
-  <div style="width: 144px; height: 45px; left: 125px; top: 742px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">REGISTER</div>
+  <img
+    src="img3.jpeg"
+  />
 </div>
-```
-## PAGE 4:
-```
-<div style="width: 411px; height: 938px; position: relative; background: white">
-  <img style="width: 411px; height: 938px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/411x938" />
-  <img style="width: 399px; height: 63px; left: 12px; top: 23px; position: absolute" src="https://via.placeholder.com/399x63" />
-  <img style="width: 300px; height: 97px; left: 56px; top: 148px; position: absolute" src="https://via.placeholder.com/300x97" />
-  <div style="width: 394px; height: 152px; left: 11px; top: 317px; position: absolute; text-align: center; color: white; font-size: 25px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Thank you for registering the events.  we are eagerly waiting for your   participation for the same</div>
-  <div style="width: 362px; height: 141px; left: 30px; top: 589px; position: absolute; background: #7F4557; border: 1px black solid; backdrop-filter: blur(4px)"></div>
-  <div style="left: 49px; top: 686px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Contact: 9973522808</div>
-  <div style="left: 38px; top: 646px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Email : priyaacelenza2k24@saveetha.in</div>
-  <div style="left: 60px; top: 598px; position: absolute; text-align: center; color: #D9D9D9; font-size: 25px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word"> FOR DETAILS CONTACT </div>
+
+<div class="container--0-">
+  <img
+    src="img6.png"
+  />
+  <div class="text-0-1-1">EVENT REGISTRATION</div>
+  <svg
+    width="315"
+    height="44"
+    viewBox="0 0 315 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="315" height="44" fill="#D9D9D9"></rect></svg
+  ><svg
+    width="243"
+    height="44"
+    viewBox="0 0 243 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="243" height="44" fill="#D9D9D9"></rect></svg
+  ><svg
+    width="288"
+    height="44"
+    viewBox="0 0 288 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="288" height="44" fill="#D9D9D9"></rect></svg
+  ><svg
+    width="121"
+    height="44"
+    viewBox="0 0 121 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="121" height="44" fill="#D9D9D9"></rect>
+  </svg>
+  <div class="text-0-1-6">Full name</div>
+  <div class="text-0-1-7">Ref number</div>
+  <div class="text-0-1-8">Department</div>
+  <div class="text-0-1-9">Year</div>
+  <svg
+    width="291"
+    height="44"
+    viewBox="0 0 291 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="291" height="44" fill="#D9D9D9"></rect></svg
+  ><svg
+    width="461"
+    height="44"
+    viewBox="0 0 461 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="461" height="44" fill="#D9D9D9"></rect>
+  </svg>
+  <div class="text-0-1-12">Phone number</div>
+  <div class="text-0-1-13">E-mail address<br /></div>
+  <img
+    src="img4.png"
+  /><svg
+    width="332"
+    height="44"
+    viewBox="0 0 332 44"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="332" height="44" fill="#D9D9D9"></rect>
+  </svg>
+  <div class="text-0-1-16">Events to register</div>
+  <svg
+    width="247"
+    height="66"
+    viewBox="0 0 247 66"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_if_67_37)">
+      <rect x="4" y="4" width="239" height="58" rx="29" fill="#2CE004"></rect>
+      <rect
+        x="4.5"
+        y="4.5"
+        width="238"
+        height="57"
+        rx="28.5"
+        stroke="black"
+      ></rect>
+    </g>
+    <defs>
+      <filter
+        id="filter0_if_67_37"
+        x="0"
+        y="0"
+        width="247"
+        height="66"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        ></feBlend>
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        ></feColorMatrix>
+        <feOffset dy="4"></feOffset>
+        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        <feComposite
+          in2="hardAlpha"
+          operator="arithmetic"
+          k2="-1"
+          k3="1"
+        ></feComposite>
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        ></feColorMatrix>
+        <feBlend
+          mode="normal"
+          in2="shape"
+          result="effect1_innerShadow_67_37"
+        ></feBlend>
+        <feGaussianBlur
+          stdDeviation="2"
+          result="effect2_foregroundBlur_67_37"
+        ></feGaussianBlur>
+      </filter>
+    </defs>
+  </svg>
+  <div class="text-0-1-18">submit</div>
+</div>
+
+<div class="container--0-">
+  <img
+    src="img5.png"
+  />
+  <div class="text-0-1-1">"Thank You for Adding Color to Our Canvas!" 🎨</div>
+  <div class="text-0-1-2">
+    P.S. Don’t forget to share your creations and memories with us on social
+    media using #CanvasCarnival2024!
+  </div>
+  <div class="text-0-1-3">
+    CONTACT US:<br />
+    Saveetha Nagar, Thandalam, Chennai - 602105, Tamil Nadu, India.<br />Mail
+    id: saveetha@gmail.com<br />Phone: +91 8939902737
+  </div>
 </div>
 ```
 # OUTPUT:
-![Screenshot 2024-12-22 123325](https://github.com/user-attachments/assets/c13b6422-6924-4b06-97a8-0e45a129c955)
-![Screenshot 2024-12-22 123333](https://github.com/user-attachments/assets/2be64926-839a-40bf-91ce-4e61bbdee6e8)
-![Screenshot 2024-12-22 123340](https://github.com/user-attachments/assets/c85cc00c-49f8-4dc8-87ae-8f9b3d802d0f)
-![Screenshot 2024-12-22 123350](https://github.com/user-attachments/assets/ef5017d3-071a-45a3-baf9-aa3803e10b6f)
+
+![image](https://github.com/user-attachments/assets/e212568f-ff9d-442e-a35d-c59752f583f0)
+
+![image](https://github.com/user-attachments/assets/8b5422c7-ba30-4312-afe3-f7d9e5af9002)
+
+![image](https://github.com/user-attachments/assets/f7361ff3-bb60-4952-b61b-9b627c48b927)
+
+![image](https://github.com/user-attachments/assets/65561c4b-a417-475f-a70f-3fcddb965158)
 
 # RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
