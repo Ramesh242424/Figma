@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-# Date:19.05.2025
+# Date:23/12/2024
 # AIM:
 To design, develop and deploy a web application for event registration.
 
@@ -29,233 +29,61 @@ Publish the website in the given URL.
 Figma
 
 # CODE:
+HOME PAGE
 ```
-<div class="container--0-">
-  <img src="sample.png"  /><svg
-    width="252"
-    height="66"
-    viewBox="0 0 252 66"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M0 12C0 5.37258 5.37258 0 12 0H240C246.627 0 252 5.37258 252 12V54C252 60.6274 246.627 66 240 66H12C5.37258 66 0 60.6274 0 54V12Z"
-      fill="#3B296F"
-    ></path></svg
-  ><svg
-    width="252"
-    height="66"
-    viewBox="0 0 252 66"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M0 12C0 5.37258 5.37258 0 12 0H240C246.627 0 252 5.37258 252 12V54C252 60.6274 246.627 66 240 66H12C5.37258 66 0 60.6274 0 54V12Z"
-      fill="#3B296F"
-    ></path>
-  </svg>
-  <div class="text-0-1-6">LOGIN</div>
-  <div class="text-0-1-7">REGISTER</div>
-</div>
-
-<div class="container--0-">
-  <img src="sampleimage2.png"
-  /><svg
-    width="271"
-    height="48"
-    viewBox="0 0 271 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="271" height="48" rx="24" fill="#D9D9D9"></rect></svg
-  ><svg
-    width="271"
-    height="48"
-    viewBox="0 0 271 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="271" height="48" rx="24" fill="#D9D9D9"></rect>
-  </svg>
-  <div class="text-0-1-3">CHALLENGES~</div>
-  <div class="text-0-1-4">
-    #DOODLE WAR<br /><br />#COLORING QUIZ<br /><br />#SPEED PAINTING
-  </div>
-  <div class="text-0-1-5">FUN ADD-ONS~</div>
-  <div class="text-0-1-6">
-    FACE PAINTING<br /><br />GLOW IN DARK PAINTING<br /><br />SPIN ART STUDIO
-  </div>
-  <img
-    src="img3.jpeg"
-  />
-</div>
-
-<div class="container--0-">
-  <img
-    src="img6.png"
-  />
-  <div class="text-0-1-1">EVENT REGISTRATION</div>
-  <svg
-    width="315"
-    height="44"
-    viewBox="0 0 315 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="315" height="44" fill="#D9D9D9"></rect></svg
-  ><svg
-    width="243"
-    height="44"
-    viewBox="0 0 243 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="243" height="44" fill="#D9D9D9"></rect></svg
-  ><svg
-    width="288"
-    height="44"
-    viewBox="0 0 288 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="288" height="44" fill="#D9D9D9"></rect></svg
-  ><svg
-    width="121"
-    height="44"
-    viewBox="0 0 121 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="121" height="44" fill="#D9D9D9"></rect>
-  </svg>
-  <div class="text-0-1-6">Full name</div>
-  <div class="text-0-1-7">Ref number</div>
-  <div class="text-0-1-8">Department</div>
-  <div class="text-0-1-9">Year</div>
-  <svg
-    width="291"
-    height="44"
-    viewBox="0 0 291 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="291" height="44" fill="#D9D9D9"></rect></svg
-  ><svg
-    width="461"
-    height="44"
-    viewBox="0 0 461 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="461" height="44" fill="#D9D9D9"></rect>
-  </svg>
-  <div class="text-0-1-12">Phone number</div>
-  <div class="text-0-1-13">E-mail address<br /></div>
-  <img
-    src="img4.png"
-  /><svg
-    width="332"
-    height="44"
-    viewBox="0 0 332 44"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="332" height="44" fill="#D9D9D9"></rect>
-  </svg>
-  <div class="text-0-1-16">Events to register</div>
-  <svg
-    width="247"
-    height="66"
-    viewBox="0 0 247 66"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <g filter="url(#filter0_if_67_37)">
-      <rect x="4" y="4" width="239" height="58" rx="29" fill="#2CE004"></rect>
-      <rect
-        x="4.5"
-        y="4.5"
-        width="238"
-        height="57"
-        rx="28.5"
-        stroke="black"
-      ></rect>
-    </g>
-    <defs>
-      <filter
-        id="filter0_if_67_37"
-        x="0"
-        y="0"
-        width="247"
-        height="66"
-        filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
-      >
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-        <feBlend
-          mode="normal"
-          in="SourceGraphic"
-          in2="BackgroundImageFix"
-          result="shape"
-        ></feBlend>
-        <feColorMatrix
-          in="SourceAlpha"
-          type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-          result="hardAlpha"
-        ></feColorMatrix>
-        <feOffset dy="4"></feOffset>
-        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-        <feComposite
-          in2="hardAlpha"
-          operator="arithmetic"
-          k2="-1"
-          k3="1"
-        ></feComposite>
-        <feColorMatrix
-          type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-        ></feColorMatrix>
-        <feBlend
-          mode="normal"
-          in2="shape"
-          result="effect1_innerShadow_67_37"
-        ></feBlend>
-        <feGaussianBlur
-          stdDeviation="2"
-          result="effect2_foregroundBlur_67_37"
-        ></feGaussianBlur>
-      </filter>
-    </defs>
-  </svg>
-  <div class="text-0-1-18">submit</div>
-</div>
-
-<div class="container--0-">
-  <img
-    src="img5.png"
-  />
-  <div class="text-0-1-1">"Thank You for Adding Color to Our Canvas!" 🎨</div>
-  <div class="text-0-1-2">
-    P.S. Don’t forget to share your creations and memories with us on social
-    media using #CanvasCarnival2024!
-  </div>
-  <div class="text-0-1-3">
-    CONTACT US:<br />
-    Saveetha Nagar, Thandalam, Chennai - 602105, Tamil Nadu, India.<br />Mail
-    id: saveetha@gmail.com<br />Phone: +91 8939902737
-  </div>
-</div>
+<img style="width: 534px; height: 128px" src="https://via.placeholder.com/534x128" />
+<img style="width: 543px; height: 865px" src="https://via.placeholder.com/543x865" />
+<div style="width: 402px; height: 55px; color: black; font-size: 48px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">Push Your Limits</div>
+<div style="width: 300.96px; height: 66.29px; background: #2F71AA"></div>
+<div style="width: 232.66px; height: 82.80px; color: black; font-size: 48px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">LOGIN</div>
+<div style="width: 300.96px; height: 66.29px; background: #2F71AA"></div>
+<div style="color: black; font-size: 48px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">REGISTER</div>
+```
+LIST OF SPORTS
+```
+<img style="width: 506px; height: 102px" src="https://via.placeholder.com/506x102" />
+<img style="width: 506px; height: 858px" src="https://via.placeholder.com/506x858" />
+<div style="width: 432px; height: 58px; color: #0A0A0A; font-size: 48px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">LIST OF SPORTS</div>
+<div style="width: 197px; height: 36px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">OUTDOORS</div>
+<div style="width: 318px; height: 46px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*CRICKET</div>
+<div style="width: 189px; height: 49px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*FOOTBALL</div>
+<div style="width: 228px; height: 47px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*BASEBALL</div>
+<div style="width: 214px; height: 45px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">INDOORS</div>
+<div style="width: 241px; height: 41px; color: black; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*BADMINTON</div>
+<div style="width: 224px; height: 39px; color: #0D0D0D; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*CARROM</div>
+<div style="width: 223px; height: 45px; color: #0C0C0C; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">*CHESS</div>
+```
+EVENT REGISTRATION FORM
+```
+<img style="width: 535px; height: 102px" src="https://via.placeholder.com/535x102" />
+<div style="width: 497px; height: 68px; color: white; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">EVENT REGISTRATION FORM</div>
+<div style="color: white; font-size: 14px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">FILL IN THE DETAILS</div>
+<img style="width: 548px; height: 880px" src="https://via.placeholder.com/548x880" />
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">FULL NAME</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">GENDER</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">AGE</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">REGISTERED NUMBER</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">DEPARTMENT</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">MOBILE NUMBER</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">EMAIL ID</div>
+<div style="width: 395px; height: 40px; background: #D9D9D9"></div>
+<div style="color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">EVENTS FOR REGISTER</div>
+```
+THANK YOU
+```
+<img style="width: 525px; height: 102px" src="https://via.placeholder.com/525x102" />
+<div style="color: white; font-size: 36px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Chase Your Dreams</div>
+<img style="width: 525px; height: 884px" src="https://via.placeholder.com/525x884" />
 ```
 # OUTPUT:
-
-![image](https://github.com/user-attachments/assets/e212568f-ff9d-442e-a35d-c59752f583f0)
-
-![image](https://github.com/user-attachments/assets/8b5422c7-ba30-4312-afe3-f7d9e5af9002)
-
-![image](https://github.com/user-attachments/assets/f7361ff3-bb60-4952-b61b-9b627c48b927)
-
-![image](https://github.com/user-attachments/assets/65561c4b-a417-475f-a70f-3fcddb965158)
+![Screenshot 2024-12-26 114628](https://github.com/user-attachments/assets/f71fbcfd-6543-4cf0-8cdf-cd8d73d8e4f1)
 
 # RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
